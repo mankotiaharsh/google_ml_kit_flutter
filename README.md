@@ -1,19 +1,22 @@
-# google_ml_kit_flutter
- 
-# Text Recognizer and Summarizer using google_ml_kit in Flutter
+# Flutter App: Text Recognizer and Text Summarizer using 'google_ml_kit'
 
-This Flutter application leverages the power of Google's ML Kit to provide two key functionalities: text recognition and text summarization. The app uses the google_ml_kit package to accurately recognize text from images, making it easy to extract text from various sources such as documents and handwritten notes.
-
-Once the text is recognized, the app also includes a built-in text summarizer that condenses large bodies of text into concise summaries, making it easier to digest and understand the main points.
+This Flutter application demonstrates the use of Google’s ML Kit to implement two essential functionalities: text recognition and text summarization. The app is designed with simplicity and efficiency in mind, offering a seamless user experience across two main screens:
 
 # Features:
-    Text Recognition: Capture images or upload them from your gallery to recognize and extract text with high accuracy.
-    Text Summarization: Automatically generate summaries from recognized text, saving time and effort in reading.
-    User-Friendly Interface: Simple and intuitive UI for seamless user experience.
+- # Text Recognizer (Screen 1):
+- Users can capture images using the camera or upload images from their device's gallery.
+- The app then recognizes and extracts text from the images with high accuracy using google_ml_kit.
+
+- # Text Summarizer (Screen 2):
+- Once the text is recognized, users can navigate to the summarizer screen.
+- The summarizer condenses large bodies of text into concise and meaningful summaries, making it easier to grasp the core message.
 
 # Technologies Used:
-    Flutter: The app is built using Flutter for a cross-platform experience.
-    google_ml_kit: Google's powerful ML Kit for text recognition and processing.
+- Flutter: The app is developed using Flutter, ensuring a cross-platform, high-performance experience.
+- google_ml_kit: Leveraging Google’s ML Kit to handle the complex tasks of text recognition and text summarization.
 
-This project serves as a robust tool for anyone needing quick and efficient text extraction and summarization on the go.
+# Project Structure:
+- Screen 1: Implements the Text Recognizer functionality.
+- Screen 2: Implements the Text Summarizer functionality.
 
+This project serves as a practical example for developers looking to integrate Google’s ML Kit into their Flutter applications, especially for tasks involving text processing.
